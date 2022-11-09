@@ -15,18 +15,18 @@ let keywords = ["10 самых популярных шрифтов от Google",
 let keyword = keywords[getRandom(0, keywords.length)];
 
 if (homeSearch !== undefined) {
-document.getElementsByName("q")[0].value = keyword;
-buttonSearch.click();
+	document.getElementsByName("q")[0].value = keyword;
+	buttonSearch.click();
 } else {
-for (let i = 0; i < links.length; i++) {
-if (links[i].href.indexOf("napli.ru") !== -1) {
-let link = links[i];
-console.log("Нашел строку " + links[i]);
-window.open(link, "_self");
-break;
-}
-}
+	for (let i = 0; i < links.length; i++) {
+		if (links[i].href.indexOf("napli.ru") !== -1) {
+			let link = links[i];
+			console.log("Нашел строку " + links[i]);
+			window.open(link, "_self");
+			break;
+		}
+	}
 }
 function getRandom(min, max) {
-  return Math.floor(Math.random() * (max - min) + min);
+	return Math.floor(Math.random() * (max - min) + min);
 }
