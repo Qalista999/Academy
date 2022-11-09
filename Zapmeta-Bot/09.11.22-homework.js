@@ -2,7 +2,7 @@
 // @name         Zapmeta Bot
 // @namespace    http://tampermonkey.net/
 // @version      0.1
-// @description  Bot for Zapmeta
+// @description  JS - Задание #14 - Bot for Zapmeta
 // @author       Evgeniya Sadovskaya
 // @match        https://www.zapmeta.com/*
 // @icon         data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
